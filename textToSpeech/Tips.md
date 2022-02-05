@@ -21,3 +21,13 @@ Or create a requirements.txt file for dependencies
 Start program
 
 python {name}.py
+
+
+PIP Show Installed Libraries 
+pip list
+
+PIP Show details of a library
+pip show gTTS
+
+Create a dependency list requirements file
+pip freeze > requirements.txt

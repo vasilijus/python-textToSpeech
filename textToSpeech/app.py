@@ -2,7 +2,6 @@
 #import the libraries
 from gtts import gTTS
 from playsound import playsound
-# import os
 from tkinter import *
 
 #initialized window
@@ -29,9 +28,6 @@ def tts():
     file = 'test.mp3'
     speech.save(file)
     playsound(file)
-    # if playsound can't be installed use 
-    # cmd = 'mpg123 ' + file
-    # os.system(cmd)
 
 def Exit():
     root.destroy()
